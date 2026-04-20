@@ -35,7 +35,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: 'YourName', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'tonylin@outlook.com', //put your email here.
           message: form.message,
         },
         'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
@@ -66,7 +66,7 @@ const Contact = () => {
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Get in touch(tonylin8260@outlook.com)</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
 
         <form
